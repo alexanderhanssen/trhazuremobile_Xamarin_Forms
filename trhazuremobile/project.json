@@ -1,0 +1,15 @@
+﻿{
+  "dependencies": {
+    "Microsoft.Azure.Mobile.Analytics": "0.15.0",
+    "Microsoft.Azure.Mobile.Client": "4.0.1",
+    "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.1",
+    "Microsoft.Azure.Mobile.Crashes": "0.15.0",
+    "NETStandard.Library": "1.6.1",
+    "Xamarin.Forms": "2.3.4.247"
+  },
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": "portable-win8+net45+wpa81"
+    }
+  }
+}
