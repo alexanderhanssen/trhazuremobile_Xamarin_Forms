@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
-    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
-    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\WebApps\azure-faggruppe\trhazuremobile_Xamarin_Forms\Droid\project.lock.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\alexanderhanssen\.nuget\packages\</NuGetPackageFolders>
-    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">ProjectJson</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.3.1</NuGetToolVersion>
-  </PropertyGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xamarin.build.download\0.4.2\build\Xamarin.Build.Download.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download\0.4.2\build\Xamarin.Build.Download.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.googleplayservices.basement\42.1001.0\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.googleplayservices.basement\42.1001.0\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.googleplayservices.tasks\42.1001.0\build\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.googleplayservices.tasks\42.1001.0\build\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.vector.drawable\23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.vector.drawable\23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.forms\2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.firebase.common\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Common.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.firebase.common\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Common.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.firebase.iid\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Iid.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.firebase.iid\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Iid.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.firebase.messaging\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Messaging.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.firebase.messaging\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Messaging.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.firebase.analytics.impl\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Analytics.Impl.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.firebase.analytics.impl\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Analytics.Impl.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.firebase.analytics\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Analytics.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.firebase.analytics\42.1001.0\build\MonoAndroid70\Xamarin.Firebase.Analytics.targets')" />
   </ImportGroup>
 </Project>

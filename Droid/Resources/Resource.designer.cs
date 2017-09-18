@@ -34,6 +34,9 @@ namespace trhazuremobile.Droid
 			global::Xamarin.Auth._MobileServices.Resource.String.ApplicationName = global::trhazuremobile.Droid.Resource.String.ApplicationName;
 			global::Xamarin.Auth._MobileServices.Resource.String.Hello = global::trhazuremobile.Droid.Resource.String.Hello;
 			global::Xamarin.Auth._MobileServices.Resource.String.title_activity_webview = global::trhazuremobile.Droid.Resource.String.title_activity_webview;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.Integer.google_play_services_version = global::trhazuremobile.Droid.Resource.Integer.google_play_services_version;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.common_google_play_services_unknown_issue = global::trhazuremobile.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.library_name = global::trhazuremobile.Droid.Resource.String.library_name;
 			global::PCLCrypto.Resource.String.ApplicationName = global::trhazuremobile.Droid.Resource.String.ApplicationName;
 			global::PCLCrypto.Resource.String.Hello = global::trhazuremobile.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::trhazuremobile.Droid.Resource.Attribute.actionBarSize;
@@ -2725,6 +2728,9 @@ namespace trhazuremobile.Droid
 			// aapt resource value: 0x7f090008
 			public const int design_snackbar_text_max_lines = 2131296264;
 			
+			// aapt resource value: 0x7f09000a
+			public const int google_play_services_version = 2131296266;
+			
 			// aapt resource value: 0x7f090000
 			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296256;
 			
@@ -2950,11 +2956,11 @@ namespace trhazuremobile.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080027
-			public const int ApplicationName = 2131230759;
+			// aapt resource value: 0x7f080028
+			public const int ApplicationName = 2131230760;
 			
-			// aapt resource value: 0x7f080026
-			public const int Hello = 2131230758;
+			// aapt resource value: 0x7f080027
+			public const int Hello = 2131230759;
 			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;
@@ -3022,6 +3028,33 @@ namespace trhazuremobile.Droid
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
 			
+			// aapt resource value: 0x7f080026
+			public const int common_google_play_services_unknown_issue = 2131230758;
+			
+			// aapt resource value: 0x7f08002d
+			public const int default_web_client_id = 2131230765;
+			
+			// aapt resource value: 0x7f08002e
+			public const int firebase_database_url = 2131230766;
+			
+			// aapt resource value: 0x7f08002b
+			public const int gcm_defaultSenderId = 2131230763;
+			
+			// aapt resource value: 0x7f08002f
+			public const int google_api_key = 2131230767;
+			
+			// aapt resource value: 0x7f08002c
+			public const int google_app_id = 2131230764;
+			
+			// aapt resource value: 0x7f080030
+			public const int google_crash_reporting_api_key = 2131230768;
+			
+			// aapt resource value: 0x7f080031
+			public const int google_storage_bucket = 2131230769;
+			
+			// aapt resource value: 0x7f080029
+			public const int library_name = 2131230761;
+			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;
 			
@@ -3070,8 +3103,8 @@ namespace trhazuremobile.Droid
 			// aapt resource value: 0x7f080022
 			public const int status_bar_notification_info_overflow = 2131230754;
 			
-			// aapt resource value: 0x7f080028
-			public const int title_activity_webview = 2131230760;
+			// aapt resource value: 0x7f08002a
+			public const int title_activity_webview = 2131230762;
 			
 			static String()
 			{

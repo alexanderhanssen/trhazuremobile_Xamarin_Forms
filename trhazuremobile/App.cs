@@ -2,6 +2,7 @@
 using Microsoft.Azure.Mobile;
 using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Crashes;
+using Microsoft.Azure.Mobile.Push;
 using Xamarin.Forms;
 
 namespace trhazuremobile
@@ -18,7 +19,7 @@ namespace trhazuremobile
 		{
             // Handle when your app starts
 		    MobileCenter.Start("android=ea2c7d88-e7ea-42f1-8906-c9537dbf18b6;",
-		        typeof(Analytics), typeof(Crashes));
+		        typeof(Analytics), typeof(Crashes), typeof(Push));
         }
 
 		protected override void OnSleep ()

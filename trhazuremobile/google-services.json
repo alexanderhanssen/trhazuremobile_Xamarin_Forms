@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "213751905373",
+    "firebase_url": "https://todo-app-dd91f.firebaseio.com",
+    "project_id": "todo-app-dd91f",
+    "storage_bucket": "todo-app-dd91f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213751905373:android:ec32951f28f2df63",
+        "android_client_info": {
+          "package_name": "com.xamarin.sample.trhazuremobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213751905373-nv64f0msvfq513udmkttaib21ffgqoie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt9pmyENXFRi-lv_edW2EVWfkrQRv6kYM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
