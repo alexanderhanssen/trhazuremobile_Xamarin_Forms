@@ -12,7 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
+using FormsApp = trhazuremobile.App;
 using Microsoft.WindowsAzure.MobileServices;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -28,7 +28,7 @@ namespace UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new trhazuremobile.App());
+            LoadApplication(new FormsApp());
         }
     }
 }
