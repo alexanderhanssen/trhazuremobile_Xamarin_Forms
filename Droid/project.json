@@ -5,12 +5,12 @@
     "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.1",
     "Microsoft.Azure.Mobile.Crashes": "0.15.0",
     "Microsoft.Azure.Mobile.Push": "0.15.0",
-    "Xamarin.Android.Support.Design": "23.3.0",
-    "Xamarin.Android.Support.v4": "23.3.0",
-    "Xamarin.Android.Support.v7.AppCompat": "23.3.0",
-    "Xamarin.Android.Support.v7.CardView": "23.3.0",
-    "Xamarin.Android.Support.v7.MediaRouter": "23.3.0",
-    "Xamarin.Forms": "2.3.4.247"
+    "Xamarin.Android.Support.Design": "25.4.0.2",
+    "Xamarin.Android.Support.v4": "25.4.0.2",
+    "Xamarin.Android.Support.v7.AppCompat": "25.4.0.2",
+    "Xamarin.Android.Support.v7.CardView": "25.4.0.2",
+    "Xamarin.Android.Support.v7.MediaRouter": "25.4.0.2",
+    "Xamarin.Forms": "2.3.4.270"
   },
   "frameworks": {
     "MonoAndroid,Version=v7.1": {}
