@@ -40,14 +40,14 @@ namespace trhazuremobile
         async Task AddItem(TodoItem item)
         {
             await manager.SaveTaskAsync(item);
-            todoList.ItemsSource = await manager.GetTodoItemsAsync();
+            todoList.ItemsSource = await manager.GetTodoItemsAsync(true);
         }
 
         async Task CompleteItem(TodoItem item)
         {
             item.Done = true;
             await manager.SaveTaskAsync(item);
-            todoList.ItemsSource = await manager.GetTodoItemsAsync();
+            todoList.ItemsSource = await manager.GetTodoItemsAsync(true);
         }
 
         public async void OnAdd(object sender, EventArgs e)
