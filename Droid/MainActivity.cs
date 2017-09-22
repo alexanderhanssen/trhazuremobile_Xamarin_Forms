@@ -62,8 +62,12 @@ namespace trhazuremobile.Droid
 		        CreateAndShowDialog(e.Message, "Error");
 		    }
         }
-
-	    private void CreateAndShowDialog(String message, String title)
+        //protected override void OnNewIntent(Android.Content.Intent intent)
+        //{
+        //    base.OnNewIntent(intent);
+        //    Push.CheckLaunchedFromNotification(this, intent);
+        //}
+        private void CreateAndShowDialog(String message, String title)
 	    {
 	        AlertDialog.Builder builder = new AlertDialog.Builder(this);
 

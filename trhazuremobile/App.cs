@@ -17,12 +17,7 @@ namespace trhazuremobile
 
 		protected override async void OnStart ()
 		{
-            // Handle when your app starts
-		    MobileCenter.Start(
-                "uwp=df13eb47-6f23-4e8f-841f-8c9838cef8ff;" +
-                "android=c8972ad8-a269-4349-81c2-35695fe0882e;",
-		        typeof(Analytics), typeof(Crashes), typeof(Push));
-
+            
             Push.PushNotificationReceived += (sender, e) => {
 
                 // Add the notification message and title to the message
@@ -44,6 +39,11 @@ namespace trhazuremobile
                 // Send the notification summary to debug output
                 System.Diagnostics.Debug.WriteLine(summary);
             };
+
+		    // Handle when your app starts
+		    MobileCenter.Start(
+		        "android=c8972ad8-a269-4349-81c2-35695fe0882e",
+		        typeof(Analytics), typeof(Crashes), typeof(Push));
         }
 
         protected override void OnSleep ()
