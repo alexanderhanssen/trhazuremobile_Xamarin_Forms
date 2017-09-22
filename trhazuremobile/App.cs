@@ -18,7 +18,7 @@ namespace trhazuremobile
 		protected override void OnStart ()
 		{
             // Handle when your app starts
-		    MobileCenter.Start("android=ea2c7d88-e7ea-42f1-8906-c9537dbf18b6;",
+		    MobileCenter.Start("c8972ad8-a269-4349-81c2-35695fe0882e",
 		        typeof(Analytics), typeof(Crashes), typeof(Push));
         }
 
